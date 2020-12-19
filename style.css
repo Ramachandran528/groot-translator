@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgba(0, 0, 0, 0.6);
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("images/background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+header {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: var(--primary-color);
+}
+main {
+  margin: 2rem 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: 0px auto;
+}
+textarea {
+  resize: none;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+}
+#outputtxt {
+  margin-top: 0.4rem;
+}
+#translate {
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  margin: 1rem 0px;
+  background-color: var(--primary-color);
+  font-size: 1.1rem;
+  color: White;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  width: 100%;
+  line-height: 1.4rem;
+  padding: 1.8rem;
+}
+.heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.info {
+  color: black;
+  font-size: 1.2rem;
+}
+::placeholder {
+  color: white;
+}
